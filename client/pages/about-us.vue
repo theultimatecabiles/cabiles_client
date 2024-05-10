@@ -1,0 +1,43 @@
+<template>
+  <Header />
+  <div class="about-us">
+    <div class="content">
+      <h1 class="title">Online Toy Store</h1>
+      <p>We are your one-stop destination for the latest and greatest toys for kids of all ages. From classic favorites to the newest trends, we have something for everyone. Our mission is to provide high-quality toys that inspire creativity, learning, and endless fun.</p>
+    </div>
+  </div>
+  <Footer />
+</template>
+
+<script>
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
+
+<style scoped>
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.content {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+</style>

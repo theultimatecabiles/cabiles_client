@@ -1,0 +1,16 @@
+{
+  "name": "My Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.1.0+sha1.217063ce3fcbf44f3051666f38b810f1ddefee4a",
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0"
+  }
+}
