@@ -15,6 +15,7 @@
   <script>
   import Header from '~/components/Header.vue'
   import Footer from '~/components/Footer.vue'
+  import PreOrderItem from '~/components/Pre-orderItem.vue';
 
   import android17Image from '~/pictures/dragonball/android17.jpg';
   import krilinImage from '~/pictures/dragonball/krilin.jpg';
