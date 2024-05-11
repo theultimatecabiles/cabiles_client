@@ -15,7 +15,7 @@
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
-
+import ProductItem from '~/components/ProductItem.vue';
 
 import wolverineImage from '~/pictures/wolverine.jpg';
 import magnetoImage from '~/pictures/magneto.jpg';
