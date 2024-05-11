@@ -12,13 +12,6 @@ export default {
 </script>
 
 <style scoped>
-footer {
-  position: fixed; 
-  bottom: 0;
-  width: 100%;
-}
+@import 'assets/css/footer.css';
 
-.content-container {
-  margin-top: 60px; 
-}
 </style>

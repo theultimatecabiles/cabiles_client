@@ -30,33 +30,5 @@ export default {
 </script>
 
 <style scoped>
-.order-status {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-}
-
-.order-form {
-  width: 550px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-.heading {
-  font-size: 50px; 
-  font-weight: bold; 
-  margin-bottom: 20px; 
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
+@import 'assets/css/order-status.css';
 </style>

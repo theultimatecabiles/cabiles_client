@@ -24,7 +24,6 @@ import cyclopsImage from '~/pictures/cyclops.jpg';
 import jeanImage from '~/pictures/jean.jpg';
 import gambitImage from '~/pictures/gambit.jpg';
 
-
 export default {
   components: {
     Header,

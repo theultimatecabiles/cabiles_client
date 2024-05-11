@@ -22,22 +22,5 @@ export default {
 </script>
 
 <style scoped>
-.about-us {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 80vh;
-}
-
-.content {
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-}
-
-.title {
-  font-size: 100px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
+@import 'assets/css/about-us.css';
 </style>
